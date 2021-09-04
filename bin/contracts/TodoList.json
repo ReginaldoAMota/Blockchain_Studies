@@ -1,0 +1,92 @@
+{
+    "contractName": "TodoList",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/blockchain/App/eth-todo-list/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/blockchain/App/eth-todo-list/contracts/TodoList.sol\":{\"keccak256\":\"0x1e138347f68122c1bc243645fb042981fb9ec85e6f72817bf9bfdf7c0d602734\",\"urls\":[\"bzz-raw://4a9d61fd991b3fb34058e1c083c0775866c07163c16eecc47eb2d3f504ffa738\",\"dweb:/ipfs/Qmafy3Y7nDzX3RznVb2noX5iEUmLmNYSYkHLJvkSpRT5ji\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201e396f46f4abb260c57f6d393b9b6b00fd2e730ccb791913ea5f7a2451d2711d64736f6c63430008070033",
+    "deployedBytecode": "6080604052600080fdfea26469706673582212201e396f46f4abb260c57f6d393b9b6b00fd2e730ccb791913ea5f7a2451d2711d64736f6c63430008070033",
+    "sourceMap": "28:42:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "28:42:0:-:0;;;;;",
+    "sourcePath": "c:/blockchain/App/eth-todo-list/contracts/TodoList.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "ast": {
+        "absolutePath": "c:/blockchain/App/eth-todo-list/contracts/TodoList.sol",
+        "exportedSymbols": {
+            "TodoList": [
+                4
+            ]
+        },
+        "id": 5,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 4,
+                "linearizedBaseContracts": [
+                    4
+                ],
+                "name": "TodoList",
+                "nameLocation": "37:8:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "taskCount",
+                        "nameLocation": "57:9:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 4,
+                        "src": "52:14:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "52:4:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "visibility": "internal"
+                    }
+                ],
+                "scope": 5,
+                "src": "28:42:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:74:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
